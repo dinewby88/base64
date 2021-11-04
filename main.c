@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "mbedtls/base64.h"
 
 int main(void)
 {

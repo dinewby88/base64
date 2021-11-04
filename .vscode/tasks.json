@@ -8,8 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-I${workspaceFolder}\\mbedtls\\include\\",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\output.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
