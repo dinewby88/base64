@@ -1,0 +1,9 @@
+{
+    "cmake.debugConfig": {
+        "args": [
+            "-decode",
+            "-file",
+            "myFile.txt"
+        ]
+    }
+}
